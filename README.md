@@ -1,20 +1,20 @@
 # Modernize Applications with Azure and Kubernetes - Hands on Series
 
 This repo houses the source for the hands-on series sessions.
-The hands-on series will walk you step by step to help you move an existing application into Azure kubernetes.
+The series will walk you step by step to help you move an existing application into Azure kubernetes.
 
 
-| Sessions                             | Details|
-| ------------------------------------ |-------------| 
-| Introduction                         | High level overview of the hands-on series, expectation, takeaways and application overview |
-| Containerize Application with Docker |                                                                                             |   
-| Run Application with Docker Compose  |                                                                                             |   
-| Create AKS and Container Registry    |
-| Deploying App into K8 using kubectl  |
-| Migrate into Azure Cosmos            |   
-| Package Application with Helm        |
-| Configure Kubernetes Ingress         |
-| Azure Monitor for Containers         |
+| Sessions                      | Content     |
+| ----------------------------- |-------------| 
+| Introduction                  | High level overview of the series, expectations, takeaways and application overview |
+| Containerize App with Docker  |                                                                                     |   
+| Run App with Docker Compose   |                                                                                     |   
+| Create AKS and  Registry      |
+| Deploying App on K8           |
+| Migrate into Azure Cosmos     |   
+| Package Application with Helm |
+| Configure Kubernetes Ingress  |
+| Azure Monitor for Containers  |
 
 
 ## Application Overview

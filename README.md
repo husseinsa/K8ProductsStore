@@ -6,7 +6,7 @@ The series will walk you step by step to help you move an existing application i
 
 | Sessions                      | Content     |
 | ----------------------------- |-------------| 
-| Introduction                  | High level overview of the series, expectations, takeaways and application overview |
+| [Introduction](https://youtu.be/jvfAUgG8NNc)| High level overview of the series, expectations, takeaways and application overview |
 | Containerize App with Docker  |                                                                                     |   
 | Run App with Docker Compose   |                                                                                     |   
 | Create AKS and  Registry      |

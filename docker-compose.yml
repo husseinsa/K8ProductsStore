@@ -1,0 +1,32 @@
+﻿version: '3'
+services:
+  mongodb:
+    image: mongo:3.6.1-jessie
+    container_name: mongodb
+    ports: 
+      - 27017:27017
+  mongo-seed:
+    image: mongo-seed
+    build: 
+      context: db-seed
+  backend-api:
+    image: products-api
+    container_name: products-api
+    build:
+      context: back-end
+    ports:
+      - 5001:80
+    environment:
+      ProductstoreDatabaseSettings__ConnectionString: mongodb://mongodb:27017
+      ProductstoreDatabaseSettings__DatabaseName:  productsstore
+    depends_on:
+      - mongodb
+  frontend:
+    image: ui
+    container_name: ui
+    build:
+      context: front-end
+    ports:
+      - 8080:80
+    depends_on: 
+      - backend-api

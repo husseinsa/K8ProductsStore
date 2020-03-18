@@ -1,0 +1,34 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+    <h1>
+     {{title}}
+    </h1>
+</div>
+<table style="text-align:left">
+    <tr>
+        <th>
+            <label>Products:
+                <button (click)="getProducts()" class="btn btn-secondary"> Get Products</button>
+            </label>
+        </th>
+    </tr>
+</table>
+<table class="table" *ngIf="Products">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Category</th>
+            <th>Price</th>
+            <th>Quantity</th>
+         </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let product of Products | async">
+            <td>{{product.name}}</td>  
+            <td>{{product.category}}</td>  
+            <td>{{product.price}}</td>  
+            <td>{{product.quantity}}</td>       
+        </tr>
+    </tbody>
+    
+</table>

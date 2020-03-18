@@ -1,0 +1,3 @@
+[{"_id":{"$oid":"9b4f97cddbbb7e24bd9a13d5"},"Name":"Samsung LED 40", "Category":"Screen","Price":240, "Quantity" : 10},
+ {"_id":{"$oid":"9b4f97cddbbb7e24bd9a13d6"},"Name":"LG 5'", "Category":"Mobile","Price":220, "Quantity" : 10},
+ {"_id":{"$oid":"9b4f97cddbbb7e24bd9a13d7"},"Name":"Dell Latitude", "Category":"Laptops","Price":1000, "Quantity" : 10}]

@@ -1,14 +1,3 @@
-PS C:\multi-container-app\k8> kubectl get pods
-NAME                                  READY     STATUS    RESTARTS   AGE
-backend-deployment-69b94899bf-7mp2r   1/1       Running   0          51s
+# Modernize Applications with Azure and Kubernetes - Hands on Series
 
-
-
-npm run checkup
-app folder -> Client Coverage
-
-
- mongo_seed:
-    image: mongo-seed
-    build:
-      context: db-seed
+This repo houses the source code and dockerfiles for the hands on series sessions.

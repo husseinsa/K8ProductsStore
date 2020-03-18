@@ -4,14 +4,27 @@ This repo houses the source for the hands-on series sessions.
 The hands-on series will walk you step by step to help you move an existing application into Azure kubernetes.
 
 
+| Sessions                             | Details|
+| ------------------------------------ |-------------| 
+| Introduction                         | High level overview of the hands-on series, expectation, takeaways and application overview |
+| Containerize Application with Docker |                                                                                             |   
+| Run Application with Docker Compose  |                                                                                             |   
+| Create AKS and Container Registry    |
+| Deploying App into K8 using kubectl  |
+| Migrate into Azure Cosmos            |   
+| Package Application with Helm        |
+| Configure Kubernetes Ingress         |
+| Azure Monitor for Containers         |
+
+
 ## Application Overview
 
 *k8ProdcutsStore* is a simple application to demonstrate kubernetes (8) concepts and Azure Kubernetes Services (AKS). The app contains all necessary docker files to build images of the application and the database (mongo db) locally. Once we move the application to Azure, we'll use Microsoft's PaaS offering (Cosmos DB) to store our application data.
 
  - `front-end`: An Angular SPA  
  - `back-end`: .NET Core API for reading products
- - `db`: mongo db that holds our products data
- - `db-seed`: a container that populates mongo db 
- - `docker`: bash scripts for all docker commands to build and run the application
- -  `azure-cli-scripts`: scripts to provision azure resources
- - `k8`: application k8 manifest files 
+ - `db`: MongoDB that holds our products data
+ - `db-seed`: A container that populates mongo db 
+ - `docker`: Bash scripts for all docker commands to build and run the application
+ -  `azure-cli-scripts`: Scripts to provision Azure resources
+ - `k8`: Application k8 manifest files 

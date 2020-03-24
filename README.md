@@ -1,7 +1,7 @@
 # Modernize Applications with Azure and Kubernetes - Hands on Series
 
 This repo houses the source for the hands-on series sessions.
-The series will walk you step by step to help you move an existing application into Azure kubernetes.
+The series will walk you step by step to help you move an existing application into Azure Kubernetes.
 
 ## Application Overview
 

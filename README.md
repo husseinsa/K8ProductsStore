@@ -5,7 +5,7 @@ The series will walk you step by step to help you move an existing application i
 
 ## Application Overview
 
-*k8ProdcutsStore* is a simple application to demonstrate kubernetes (8) concepts and Azure Kubernetes Services (AKS). The app contains all necessary docker files to build images of the application and the database (mongo db) locally. Once we move the application to Azure, we'll use Microsoft's PaaS offering (Cosmos DB) to store our application data.
+*k8ProdcutsStore* is a simple application to demonstrate kubernetes (k8) concepts and Azure Kubernetes Services (AKS). The app contains all necessary docker files to build images of the application and the database (mongo db) locally. Once we move the application to Azure, we'll use Microsoft's PaaS offering (Cosmos DB) to store our application data.
 
  - `front-end`: An Angular SPA  
  - `back-end`: .NET Core API for reading products

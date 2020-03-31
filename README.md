@@ -20,7 +20,7 @@ The series will walk you step by step to help you move an existing application i
 | Sessions                      | Content     |
 | ----------------------------- |-------------| 
 | [Introduction](https://youtu.be/jvfAUgG8NNc)| High level overview of the series, expectations, takeaways and application overview |
-| Containerize App with Docker  |                                                                                     |   
+| [Containerize App with Docker] (https://youtu.be/tWTl8u3qxrY)  | Containerize a multi-service application, walk through docker files, mutli-stage builds, run containers & execute commands on a runnung mongodb container.                                                                                    |   
 | Run App with Docker Compose   |                                                                                     |   
 | Create AKS and  Registry      |
 | Deploying App on K8           |

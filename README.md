@@ -22,8 +22,8 @@ The series will walk you step by step to help you move an existing application i
 | ----------------------------- |-------------| 
 | [Introduction](https://youtu.be/jvfAUgG8NNc)| High level overview of the series, expectations, takeaways and application overview |
 | [Containerize App with Docker](https://youtu.be/tWTl8u3qxrY)  | Containerize a multi-service application, walk through docker files, mutli-stage builds, docker commands to build, run and execute commands on running containers                                                                              |   
-| [Run App with Docker Compose]  (https://www.youtube.com/watch?v=CodUTUTUL4g&t=612s) |  Run multi-container application using docker compose, pass enviroment variables and seed mongo db container with data                                                                                    |   
-| [Create AKS and  Registry] (https://www.youtube.com/watch?v=FYJbhFbHo5I&t=4s)  |  Create Azure Kubernetes Service & Azure Container Registry, explain Azure service principles
+| [Run App with Docker Compose](https://www.youtube.com/watch?v=CodUTUTUL4g&t=612s) |  Run multi-container application using docker compose, pass enviroment variables and seed mongo db container with data                                                                                    |   
+| [Create AKS and  Registry](https://www.youtube.com/watch?v=FYJbhFbHo5I&t=4s)  |  Create Azure Kubernetes Service & Azure Container Registry, explain Azure service principles
 | Deploying App on K8           |
 | Migrate into Azure Cosmos     |   
 | Package Application with Helm |

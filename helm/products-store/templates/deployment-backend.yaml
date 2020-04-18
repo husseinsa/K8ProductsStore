@@ -24,7 +24,7 @@ spec:
           imagePullPolicy: {{ .Values.imagePullPolicy }}
           env:
           - name: ProductstoreDatabaseSettings__DatabaseName
-            value: productsstore
+            value: {{ .Values.config.db.name }}
           - name: ProductstoreDatabaseSettings__ConnectionString
             valueFrom:
               secretKeyRef:

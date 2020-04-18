@@ -3,7 +3,7 @@
 # Declare variables to be passed into your templates.
 namespace: products-store
 replicaCount: 1
-tag: v1
+tag: latest
 imagePullPolicy: IfNotPresent
 
 svc:
@@ -22,7 +22,12 @@ frontend:
     repository: prodstorecr.azurecr.io/ui
   service:
     type: LoadBalancer
-    
+
+config:
+  db:
+    name: productsstore
+    connectionStr: bW9uZ29kYjovL3Byb2RzdG9yZWNvc21vczpUR1dqemZLY3k4M2M1c3N3MFptaDBPWDQzWnFFbmxFWE9MVWthNWpXYTFaQ1AzZ0dhNlNhOW5GM1V3Yk9yRERka0FqbTdpSjhnZlhhdmx1U0djRmtBUT09QHByb2RzdG9yZWNvc21vcy5tb25nby5jb3Ntb3MuYXp1cmUuY29tOjEwMjU1Lz9zc2w9dHJ1ZSZyZXBsaWNhU2V0PWdsb2JhbGRiJnJldHJ5d3JpdGVzPWZhbHNlJm1heElkbGVUaW1lTVM9MTIwMDAwJmFwcE5hbWU9QHByb2RzdG9yZWNvc21vc0A=
+  
 imagePullSecrets: []
 nameOverride: ""
 fullnameOverride: ""

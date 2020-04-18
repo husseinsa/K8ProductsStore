@@ -1,0 +1,18 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: {{.Values.backend.name}}-service
+  labels:
+    app: {{ .Values.backend.name }}
+    release: {{ .Release.Name }}
+    chart: {{ template "products-store.chart" . }}
+spec:
+  type: {{ .Values.backend.service.type }}
+  ports:
+    - port: {{ .Values.svc.port }}
+      targetPort: http
+      protocol: TCP
+      name: http
+  selector:
+    app: {{ .Values.backend.name }}
+    release: {{ .Release.Name }}

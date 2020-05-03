@@ -1,0 +1,13 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: prodstore-ingress
+spec:
+  rules:
+  - host: frontend.52.188.219.102.nip.io
+    http:
+      paths:
+      - backend:
+          serviceName: ui
+          servicePort: 80
+        path: /

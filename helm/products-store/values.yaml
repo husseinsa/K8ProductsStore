@@ -14,14 +14,14 @@ backend:
   image:
     repository: prodstorecr.azurecr.io/backend
   service:
-    type: LoadBalancer
+    type: ClusterIP
 
 frontend:
   name: ui
   image:
     repository: prodstorecr.azurecr.io/ui
   service:
-    type: LoadBalancer
+    type: ClusterIP
 
 config:
   db:

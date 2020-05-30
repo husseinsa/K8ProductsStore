@@ -4,7 +4,7 @@ metadata:
   name: prodstore-ingress
 spec:
   rules:
-  - host: frontend.52.188.219.102.nip.io
+  - host: frontend.<public-ip>.nip.io
     http:
       paths:
       - backend:
